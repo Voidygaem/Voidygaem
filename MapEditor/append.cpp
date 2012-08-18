@@ -1,7 +1,7 @@
 #include <fstream>
 #include <cstdio>
 using namespace std;
-int main()
+int appnd_d()
 {
 	FILE* map = fopen("lol.map","ab+");
 	short a=16;

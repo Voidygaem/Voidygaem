@@ -2,6 +2,7 @@
 #include <iostream>
 #include <conio.h>
 #include <fstream>
+#include "Append.h"
 using namespace std;
 
 
@@ -84,6 +85,6 @@ int main()
 	}
 		map.write(chars,sizeof(chars));
 		map.close();
-	
+	appnd_d();
 	return 0;
 }
